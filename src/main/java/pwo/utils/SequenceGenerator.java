@@ -9,4 +9,6 @@ public interface SequenceGenerator {
     BigDecimal nextTerm();
 
     BigDecimal getTerm(int i);
+    
+    BigDecimal getPreviousTerm();
 }
